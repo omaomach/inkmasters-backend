@@ -2,6 +2,7 @@ class Client < ApplicationRecord
     has_secure_password
 
     validates :username, presence: true, uniqueness: true
+    validate :email, presence: true, uniqueness: true
     validates :phone_number, presence: true, length: { is: 10 }
 
     has_many :appointments
