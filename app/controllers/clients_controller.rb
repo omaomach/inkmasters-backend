@@ -1,9 +1,9 @@
 class ClientsController < ApplicationController
 
-    # def index 
-    #     clients = Client.all 
-    #     render json: clients, status: 200
-    # end
+    def index 
+        clients = Client.all 
+        render json: clients, status: 200
+    end
 
     def create
         client = Client.create(client_params)
@@ -17,11 +17,12 @@ class ClientsController < ApplicationController
 
     def show
       client = Client.find_by(id: session[:user_id])
-      if client
-        render json: client
-      else
-        render json: { error: "Not authorized" }, status: :unauthorized
-      end
+      render json: client
+      # if client
+      #   render json: client
+      # else
+      #   render json: { error: "Not authorized" }, status: :unauthorized
+      # end
     end
 
     private
