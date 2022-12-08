@@ -42,5 +42,7 @@ module InkmastersBack
 
     config.action_dispatch.cookies_same_site_protection = :strict
 
+    config.hosts << "inkmasters-production.up.railway.app"
+
   end
 end
