@@ -10,9 +10,9 @@
 # c2 = Client.create(username: "Joash Omao", email: "omao@gmail.com", phone_number: "0728748441", password: "omao")
 # c3 = Client.create(username: "Steve Mirioba", email: "steve@gmail.com", phone_number: "0708687861", password: "mirioba")
 
-# a1 = Artist.create(name: "Dancan Tatt", rating: 4, email: "dancantattoos@gmail.com", phone_number: "0798765421", image: "https://static.wixstatic.com/media/4d8115_fca37eb9985f42009465b7503b9cb388~mv2.jpg/v1/fill/w_640,h_336,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4d8115_fca37eb9985f42009465b7503b9cb388~mv2.jpg", studio_id: 1)
-# a2 = Artist.create(name: "John Doe", rating: 4.5, email: "doetattoos@gmail.com", phone_number: "0798765421", image: "https://static.wixstatic.com/media/4d8115_fca37eb9985f42009465b7503b9cb388~mv2.jpg/v1/fill/w_640,h_336,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4d8115_fca37eb9985f42009465b7503b9cb388~mv2.jpg", studio_id: 1)
-# a3 = Artist.create(name: "Jane Doe", rating: 4, email: "janedoe@gmail.com", phone_number: "0798765421", image: "https://static.wixstatic.com/media/4d8115_fca37eb9985f42009465b7503b9cb388~mv2.jpg/v1/fill/w_640,h_336,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4d8115_fca37eb9985f42009465b7503b9cb388~mv2.jpg", studio_id: 1)
+# a1 = Artist.create(name: "Dancan Tatt", rating: 4, email: "dancantattoos@gmail.com", phone_number: "0798765421", image: "https://i.pinimg.com/564x/5c/2f/ab/5c2fab9745b57e5416c3173dcfef5a94.jpg", studio_id: 1)
+# a2 = Artist.create(name: "John Doe", rating: 4.5, email: "doetattoos@gmail.com", phone_number: "0798765421", image: "https://i.pinimg.com/564x/5c/2f/ab/5c2fab9745b57e5416c3173dcfef5a94.jpg", studio_id: 1)
+# a3 = Artist.create(name: "Jane Doe", rating: 4, email: "janedoe@gmail.com", phone_number: "0798765421", image: "https://i.pinimg.com/564x/5c/2f/ab/5c2fab9745b57e5416c3173dcfef5a94.jpg", studio_id: 1)
 
 # i1 = Image.create(image_url: "https://i.pinimg.com/564x/ba/97/3c/ba973c895cfd77b4b718760ace0064d3.jpg", artist_id: 1)
 # i2 = Image.create(image_url: "https://i.pinimg.com/564x/0c/7e/e2/0c7ee2fba9feb1a6a07d39be847135b5.jpg", artist_id: 2)
