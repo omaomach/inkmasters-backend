@@ -1,21 +1,22 @@
-# Afrikaan Restaurant API
-## Author Name:
-Andrew Omondi Ochieng
-## Project Name:
-Afrikaan Restaurant
-## Description of the program:
-The program is a food ordering application where one can order food from one of the major cities in kenya. The user has the ability to choose a specific restaurant on which to order a particular food item(s) from the menu.
+# Inkmasters API
+## Engineer
+Omao Joash Machoka
+## Project Name
+Inkmasters
+## Description
+Inkmasters exposes licensed tattoo artists to the world. It will ensure that tattoo lovers are linked to the best artists in the business.
 ## Technology Used
 * Ruby on Rails
 * Ruby
 * Railway Hosting
+* PostreSQL
 ## Setup Requirements
     - Git (to clone the repository)
-    - Ruby 2.7.4
-    - Rails 7.0.4
-    - PostgreSQL (to run the database)
+    - Ruby 3.0.4
+    - Rails 6.1.7
+    - PostgreSQL as my database
     - Postman (to test the API)
-    - Railway cli (if you want to deploy to Railway)
+    - Railway cli for backend deployment
 ## Setup Installation
     - Clone the repository
     - Run the following commands in the repository:
@@ -29,47 +30,27 @@ The program is a food ordering application where one can order food from one of 
         - railway init
         - railway add
         - railway up
-## Endpoints
-- Root endpoint:
-  - [https://afrikaan-restaurant-production.up.railway.app](https://afrikaan-restaurant-production.up.railway.app/)
-> POST
-`/user/create/`
-- Create a new user
-```json
-{
-  "username": "string",
-  "email": "user@example.com",
-  "address": "Lavington"
-  "password": "string"
-}
-```
-- Response:
-```json
-{
-  "success": "User created successfully"
-}
-``` 
-<br>
+        - railway run rails db:create db:migrate db: seed
+## Link to Website
+[Inkmasters](https://stalwart-starship-7fb3de.netlify.app/)
+
+
 ## Future Additions 
 * Add a reviews section where clients can leave their ratings & comments
-* Add payment intergrations where after checking out, clients can make direct payments
-* Add more locations(towns) to the platform in that people in other areas can also benefit from the application.
-<br>
+* Create an Admin side for the website.
 ## GitHub Pages:
-[Afrikaan Restaurant API](https://github.com/Andrew-Ochieng/afrikaan-restaurant-api)
-[Afrikaan Restaurant Client](https://github.com/Andrew-Ochieng/afrikaan-restaurant-client)
-<br />
+[Inkmaster Frontend](https://github.com/omaomach/Inkmasters-Frontend)
+[Inkmasters Backend](https://github.com/omaomach/inkmasters-backend)
 ## Contact
-    email: andrewomosh44@gmail.com
-[LinkedIn](https://www.linkedin.com/in/andrew-ochieng-00b076180/) | 
-[Twitter](https://twitter.com/dev__drew) | 
-[Github](https://github.com/Andrew-Ochieng)
+[Email]machokajoash@gmail.com
+[LinkedIn](https://www.linkedin.com/in/joash-omao-1163771ab/) |  
+[Github](https://github.com/omaomach)
 <!-- ## Hosted Api -->
-<br />
+<
 ## Known Bugs
 So far so good there are no bugs related to this project 😎
 ## Support and contact details 😃
-To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
-<br />
+To make a contribution to the code used or any suggestions you can click on any of the contact links and email me your suggestions.
+
 
 Copyright (c) 2022 Omao Machoka
