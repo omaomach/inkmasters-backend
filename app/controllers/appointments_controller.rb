@@ -11,7 +11,7 @@ class AppointmentsController < ApplicationController
     end
 
     def create 
-        user = User.find(params[:id])
+        client = Client.find(params[:id])
         appointment.create(appointment_params)
         render json: appointment, status: :created
     end
