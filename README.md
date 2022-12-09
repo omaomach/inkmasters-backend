@@ -40,9 +40,8 @@ Inkmasters exposes licensed tattoo artists to the world. It will ensure that tat
 * Create an Admin side for the website.
 ## GitHub Pages:
 [Inkmaster Frontend](https://github.com/omaomach/Inkmasters-Frontend)
-[Inkmasters Backend](https://github.com/omaomach/inkmasters-backend)
 ## Contact
-[Email]machokajoash@gmail.com
+[Email](machokajoash@gmail.com)
 [LinkedIn](https://www.linkedin.com/in/joash-omao-1163771ab/) |  
 [Github](https://github.com/omaomach)
 <!-- ## Hosted Api -->
