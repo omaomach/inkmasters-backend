@@ -47,8 +47,8 @@ Inkmasters exposes licensed tattoo artists to the world. It will ensure that tat
 <!-- ## Hosted Api -->
 <
 ## Known Bugs
-So far so good there are no bugs related to this project 😎
-## Support and contact details 😃
+So far so good there are no bugs related to this project
+## Support and contact details
 To make a contribution to the code used or any suggestions you can click on any of the contact links and email me your suggestions.
 
 ## License
