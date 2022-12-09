@@ -10,11 +10,11 @@ class AppointmentsController < ApplicationController
         render json: appointment, status: 200, serializer: SingleAppointmentSerializer
     end
 
-    # def create 
-    #     client = Client.find(params[:id])
-    #     appointment.create(appointment_params)
-    #     render json: appointment, status: :created
-    # end
+    def create 
+        client = Client.find(params[:id])
+        appointment.create(appointment_params)
+        render json: appointment, status: :created
+    end
 
     private
     def appointment_params
