@@ -11,9 +11,14 @@ class AppointmentsController < ApplicationController
     end
 
     def create 
-        client = Client.find(params[:id])
-        appointment.create(appointment_params)
+        appointment = Appointment.create!(appointment_params)
         render json: appointment, status: :created
+    end
+
+    def destroy
+        appointment = Appointment.find(params[:id])
+        appointment.destroy
+        head :no_content   
     end
 
     private

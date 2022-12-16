@@ -14,11 +14,10 @@ ActiveRecord::Schema.define(version: 2022_12_07_055105) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "timescaledb"
 
   create_table "appointments", force: :cascade do |t|
     t.string "appointment_type"
-    t.integer "appointment_time"
+    t.string "appointment_time"
     t.integer "artist_id"
     t.integer "client_id"
     t.datetime "created_at", precision: 6, null: false
